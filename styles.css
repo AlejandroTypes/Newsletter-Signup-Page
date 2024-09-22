@@ -1,0 +1,262 @@
+body{
+    background-color:  hsl(235, 18%, 26%);
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    position: absolute;
+    top: 50%; right: 50%;
+    transform: translate(50%,-53%);
+}
+#newsletter-desktop{
+    background-color: hsl(0, 0%, 100%);
+    width: 58em;
+    height: 40em;
+    border-radius: 2em;
+}
+.desktop-img{
+    float: right;
+    padding: 1.5em;
+}
+.mobile-img{
+    display: none;
+}
+h1{
+    color: hsl(234, 29%, 20%);
+    font-size: 3.5em;
+    padding: 1.6em 0em 0em 1.1em;
+}
+.description{
+    width: 25em;
+    height: 3em;
+    margin: -1em 0em 0em 4em;
+}
+.icon-list-container{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+.icon-list-imgs{
+    width: 1.3em;
+    margin: 1em 1em -1.2em 4em;
+    padding: 0em 0em 1em 0em;
+}
+.p-list{
+    font-size: 1em;
+    margin: 0em 1em 1.3em 5em;
+}
+.p-email{
+    font-weight: 700;
+    font-size: 0.9em;
+    margin: 2em 0em -1.3em 4.5em;
+}
+.input-email{
+    position: absolute;
+    border-radius: 0.7em;
+    width: 27.4em;
+    height: 4em;
+    margin: 4em 1em 2em 4.8em;
+    border-color: hsl(240, 1%, 66%);
+    border-width: 0.1em;
+    cursor: pointer;
+}
+.input-email::placeholder{
+    font-size: 1.2em;
+    padding: 0em 0em 0em 1.4em;
+}
+#input-button{
+    position: absolute;
+    background-color: hsl(235, 18%, 26%);
+    font-family: "Roboto", sans-serif;
+    color: hsl(0, 0%, 100%);
+    border-radius: 0.7em;
+    width: 26em;
+    height: 4em;
+    margin: 9em 1em 2em 4.3em;
+    padding: 0em 0em 0em 0em;
+    font-weight: 700;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+#input-button:hover{
+    border: none;
+    box-shadow: 0em 1em 2.5em -1.5em hsl(234, 29%, 20%);
+    background: linear-gradient(90deg, hsl(336, 100%, 51%), hsl(21, 82%, 48%));
+}
+#desktop-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+#thankyou-card{
+    background-color: hsl(0, 0%, 100%);
+    width: 31em;
+    height: 32.5em;
+    border-radius: 2em;
+    margin: 1em 0em 0em 0em;
+}
+.success-check-img{
+    margin: 3em 0em 0em 3.5em;
+}
+#thankyou-card h1{
+    margin: 0.5em 0em 0em 1em;
+    padding: 0em 0em 0em 0em;
+}
+#thankyou-card p{
+    margin: 1em 3em 0em 3.6em;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+#thankyou-button{
+    background-color: hsl(235, 18%, 26%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 0.7em;
+    width: 26em;
+    height: 4em;
+    margin: 2.5em 1em 2em 3.9em;
+    padding: 0em 0em 0em 0em;
+    font-weight: 700;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+#thankyou-button:hover{
+    border: none;
+    box-shadow: 0em 1em 2.5em -1.5em hsl(234, 29%, 20%);
+    background: linear-gradient(90deg, hsl(336, 100%, 51%), hsl(21, 82%, 48%));
+}
+
+#emailFeedback{
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 0em 0em 0em 21.5em;   
+}
+@media all and (max-width: 935px){
+    body{
+        background-color:  hsl(235, 18%, 26%);
+        font-family: "Roboto", sans-serif;
+    }
+    .container{
+        position: absolute;
+        top: 50%; right: 50%;
+        transform: translate(50%,-53%);
+    }
+    #newsletter-desktop{
+        background-color: hsl(0, 0%, 100%);
+        width: 23.4em;
+        height: 51.5em;
+        border-radius: 0em;
+    }
+    .desktop-img{
+      display: none;
+    }
+    .mobile-img{
+        display: block;
+        padding: 0em 0em 0em 0em;
+    }
+    h1{
+        color: hsl(234, 29%, 20%);
+        font-size: 2.5em;
+        padding: 0em 0em 0em 0.5em;
+    }
+    .description{
+        width: 20em;
+        height: 3em;
+        margin: 0em 0em 0em 1.5em;
+    }
+    .icon-list-container{
+        display: flex;
+        flex-direction: column;
+        float: left;
+    }
+    .icon-list-imgs{
+        width: 1.3em;
+        margin: 1em 1em -1.2em 1.5em;
+        padding: 0em 0em 2.2em 0em;
+    }
+    .p-list{
+        font-size: 1em;
+        margin: 0em 1em 1.3em 3.5em;
+    }
+    .p-email{
+        font-weight: 700;
+        font-size: 0.9em;
+        margin: 2em 0em -1.3em 2em;
+    }
+    .input-email{
+        position: absolute;
+        border-radius: 0.7em;
+        width: 23em;
+        height: 4em;
+        margin: 4em 1em 2em 2em;
+        border-color: hsl(240, 1%, 66%);
+        border-width: 0.1em;
+        cursor: pointer;
+    }
+    .input-email::placeholder{
+        font-size: 1.2em;
+        padding: 0em 0em 0em 1.4em;
+    }
+    #input-button{
+        position: absolute;
+        background-color: hsl(235, 18%, 26%);
+        font-family: "Roboto", sans-serif;
+        color: hsl(0, 0%, 100%);
+        border-radius: 0.7em;
+        width: 21.8em;
+        height: 4em;
+        margin: 9em 1em 2em 1.8em;
+        padding: 0em 0em 0em 0em;
+        font-weight: 700;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+    #input-button:hover{
+        border: none;
+        box-shadow: 0em 1em 2.5em -1.5em hsl(234, 29%, 20%);
+        background: linear-gradient(90deg, hsl(336, 100%, 51%), hsl(21, 82%, 48%));
+    }
+    #desktop-form{
+        display: flex;
+        flex-direction: column;
+    }
+    #thankyou-card{
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 0;
+        width: 24em;
+        height: 44em;
+        margin: 1em 0em 0em 0em;
+    }
+    .success-check-img{
+        margin: 9em 0em 0em 2em;
+    }
+    #thankyou-card h1{
+        margin: 0.5em 0em 0em 1em;
+    }
+    #thankyou-card p{
+        margin: 1em 3em 0em 2.5em;
+        line-height: 1.5em;
+        font-weight: 400;
+    }
+    #thankyou-button{
+        background-color: hsl(235, 18%, 26%);
+        color: hsl(0, 0%, 100%);
+        border-radius: 0.7em;
+        width: 22em;
+        height: 4em;
+        margin: 11em 1em 2em 2em;
+        font-weight: 700;
+        font-size: 0.9em;
+        cursor: pointer;
+    }
+    #thankyou-button:hover{
+        border: none;
+        box-shadow: 0em 1em 2.5em -1.5em hsl(234, 29%, 20%);
+        background: linear-gradient(90deg, hsl(336, 100%, 51%), hsl(21, 82%, 48%));
+    }
+    
+    #emailFeedback{
+        font-size: 0.9em;
+        font-weight: bold;
+        height: 1em;
+        margin: 0em 0em 0em 14.5em;   
+    }
+}
